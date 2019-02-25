@@ -2,12 +2,8 @@
 ---
   - hosts: all
     tasks:
-      - name: Ensure group exists   
+      - name: Ensure group exists 
         group:
           name: jboss
           gid: 501
-          name: apacheadmin
-          gid: 502
-          name: confgmgt
-          gid : 503
           state: present
