@@ -1,7 +1,13 @@
 # users.yml
 ---
   - hosts: all
+    vars:
+      Repo: /appl
     tasks:
+      - name: create directory
+        file:
+           path: /appl
+           state: directory
       - name: Ensure group jboss exists 
         group:
           name: jboss
@@ -20,6 +26,7 @@
       - name: Add user "jboss" to the remote server
         user:
           name: jboss
+          password:$1$MkpERtbn$JbRryyONqTguFhG9//tZ7/:16360:0:99999:7:::~
           comment: "Privileged User"
           uid: 501
           group: jboss
@@ -27,6 +34,7 @@
       - name: Add user "apacheadmin" to the remote server
         user:
           name: apacheadmin
+          password: $1$p9sKmL4e$vdYpqJv/UWZLAs0ogFEQN1:16360:0:99999:7:::~
           comment: "Privileged User"
           uid: 502
           group: apacheadmin
