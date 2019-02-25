@@ -17,5 +17,19 @@
           name: confgmgt
           gid: 503
           state: present
+      - name: Add user "jboss" to the remote server
+        user:
+          name: jboss
+          comment: "Privileged User"
+          uid: 501
+          group: jboss
+          groups: confgmgt
+      - name: Add user "apacheadmin" to the remote server
+        user:
+          name: apacheadmin
+          comment: "Privileged User"
+          uid: 502
+          group: apacheadmin
+          groups: confgmgt
      
       
