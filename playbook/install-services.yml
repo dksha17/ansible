@@ -1,10 +1,6 @@
 # install-services.yml
-
 ---
   - hosts: all
-    remote_user: ec2-user
-    become: yes
-    become_method: sudo
     tasks:
       - name: Installing services
         yum:
@@ -15,18 +11,5 @@
             - rpm-devel
             - mod_ssl
           state: present
-      - name: Ensure group exists   
-        group:
-          name: jboss
-          gid: 501
-          name: apacheadmin
-          gid: 502
-          name: confgmgt
-          gid : 503
-          state: present
-      - name: Ensure user exists
-        user: jboss
-        uid: 501
-        group: jboss
-        groups: confgmgt,appadmin  
+      
         
