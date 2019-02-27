@@ -1,0 +1,24 @@
+docker compose
+pull jenkins image
+docker images
+docker info | grep -i root
+docker root dir : /var/lib/docker
+docker-compose up -d === start the docker image jenkins
+docker logs -f jenkins
+docker-compose stop/start
+
+delete
+
+docker-compose down
+
+docker-compose up -d
+
+
+enter docker container
+
+docker exec -ti jenkins bash 
+
+copy a script from host to container
+
+docker cp  script.sh jenkins:/tmp/script.sh
+
