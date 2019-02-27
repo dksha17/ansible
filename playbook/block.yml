@@ -2,7 +2,7 @@
 ---
   - hosts: all
     tasks:
-      - name: Ensure lines added
+      - name: Ansible Insert multiple lines using blockinfile
         blockinfile:
         path: /root/abc.txt
         block: |
