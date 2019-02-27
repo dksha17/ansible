@@ -4,5 +4,13 @@
     tasks:
       - name: untar 
         unarchive:
-           src: /root/apacheadminhome.tar
+           src: /root/software.tar
            dest: /appl
+      - name: install jdk rpm
+        yum:
+           name: /tmp/jdk.rpm
+           state: present
+           name: analog-6.0.4-1.x86_64.rpm
+           state: present
+
+  
