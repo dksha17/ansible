@@ -1,11 +1,11 @@
-# install-services.yml
+# block.yml
 ---
   - hosts: all
     tasks:
-      - name: Ansible Insert multiple lines using blockinfile
-        blockinfile:
-        path: /root/abc.txt
-        block: |
-          hi
-          how are you
-        backup: yes 
+    - name: Ansible Insert multiple lines using blockinfile
+      blockinfile:
+      path: /root/abc.txt
+      block: |
+        hi
+        how are you
+      backup: yes 
