@@ -2,10 +2,10 @@
 ---
   - hosts: all
     tasks:
-    - name: line insert
-      blockinfile:
-      path: /root/abc.txt
-      block: |
-         hi i am jessy
-         nice to meet you
-      backup: yes
+      - name: line insert
+        blockinfile:
+        path: /root/abc.txt
+        block: |
+          hi i am jessy
+          nice to meet you
+        backup: yes
