@@ -1,0 +1,8 @@
+# users.yml
+---
+  - hosts: all
+    tasks:
+      - name: untar 
+        unarchive:
+           src: /root/software.tar
+           dest: /appl
