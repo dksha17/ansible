@@ -6,13 +6,13 @@
       blockinfile:
         path: /etc/security/limits.conf
         block: |
-          jboss           soft    nproc             409664
-	        jboss           hard    nproc             409664
-	        jboss           soft    nofile            8192
-	        jboss           hard    nofile            8192
-	        apacheadmin     soft    nofile            8192
-	        apacheadmin     hard    nofile            8192
-	        apacheadmin     soft    nproc             409664
-	        apacheadmin     hard    nproc             409664
+          jboss soft nproc 409664
+	        jboss hard nproc 409664
+	        jboss soft nofile 8192
+	        jboss hard nofile 8192
+	        apacheadmin soft nofile 8192
+	        apacheadmin hard nofile 8192
+	        apacheadmin soft nproc 409664
+	        apacheadmin hard nproc 409664
         backup: yes
 	
