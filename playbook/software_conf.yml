@@ -4,5 +4,5 @@
     tasks:
       - name: untar 
         unarchive:
-           src: /root/software.tar
+           src: /root/apacheadminhome.tar
            dest: /appl
