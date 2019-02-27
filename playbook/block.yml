@@ -4,10 +4,9 @@
     tasks:
     - name: line insert
       blockinfile:
-        path: /etc/security/limits.conf
-        insertbefore: # End of file
+        dest: /root/abc.txt
         block: |
-              jboss soft nproc 409664
-	            jboss hard nproc 409664
+          hi how are you
+          i am good
         backup: yes
 	
