@@ -1,8 +1,8 @@
 # blocks.yml
 ---
-  -hosts: all
-   tasks:
-   -  name: line insert
+  - hosts: all
+    tasks:
+    - name: line insert
       blockinfile:
       path: /root/abc.txt
       block: |
