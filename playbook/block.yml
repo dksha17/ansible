@@ -7,7 +7,7 @@
         path: /etc/security/limits.conf
         insertbefore: # End of file
         block: |
-          jboss soft nproc 409664
+              jboss soft nproc 409664
 	            jboss hard nproc 409664
         backup: yes
 	
