@@ -4,7 +4,7 @@
     tasks:
       - name: line insert
         blockinfile:
-        path: /root/abc.txt
+        dest: /root/abc.txt
         block: |
           hi i am jessy
           nice to meet you
