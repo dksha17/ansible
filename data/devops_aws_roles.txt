@@ -1,0 +1,17 @@
+
+
+• Created scripts in Python and Bash to kickstart Bare-metals.
+• Used Amazon EC2 that helped in web scale computing. 
+• Involved in using AWS for storage and during times of disaster recovery. 
+• Experience in Setting up Chef Workstation, bootstrapping various enterprise nodes, setting up keys.
+• Collaborate in the automation of AWS infrastructure via Terraform and Jenkins - software and services configuration via Chef Cookbooks.
+•Working with AWS teams and reviewing the DAC/EC (DNCS) Controllers Channel Lineup data for the respective RDC Markets.
+•Working with the team in building & validating the Chef-Automation process which needs to be enabled on all the build components with respective to the RDC market.
+• Written multiple recipes and customized facts for efficient management of the Chef clients.
+• Installed, configured and managed Ansible server and created playbooks to various application servers and used Ansible to automate repetitive tasks. 
+• Developed automation scripts in YAML using Ansible to run Chef Clients across Linux servers.
+•Designing and implementing an entire infrastructure to build servers on VMware using Terraform.
+•Extensively working on installation, configuration and maintenance of CentOS 6.X, 7.X and Red Hat Enterprise Linux.
+•Analyze all product component issues including Software, Hardware, Database and Network interfaces using various tools and monitoring applications such as NetScout, Icinga, AppDynamics, Rabbit-MQ & Splunk.
+• Created Branches, Labels and performed Merges in Stash and GIT. 
+• Managing Build results in Jenkins and Deployed using workflows. Maintain and track inventory using Jenkins and set alerts when the servers are full and need attention. 
