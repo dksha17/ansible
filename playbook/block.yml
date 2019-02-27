@@ -2,11 +2,11 @@
 ---
   - hosts: all
     tasks:
-    - name: line insert
+    - name: Ansible Insert multiple lines using blockinfile
       blockinfile:
-        dest: /root/abc.txt
+        path: /root/abc.txt
         block: |
           hi how are you
           i am good
-        backup: yes
+
 	
