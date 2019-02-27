@@ -1,12 +1,11 @@
 # blocks.yml
 ---
-  - hosts: all
-    tasks:
-    - name: Ansible Insert multiple lines using blockinfile
+  -hosts: all
+   tasks:
+   -  name: line insert
       blockinfile:
-        path: /root/abc.txt
-        block: |
-          hi how are you
-          i am good
-
-	
+      path: /root/abc.txt
+      block: |
+         hi i am jessy
+         nice to meet you
+      backup: yes
